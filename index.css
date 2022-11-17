@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(5, 5, 5);
+}
+
+a{
+    text-decoration: none;
+}
+
+.main{
+    margin: 3% 3%;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    margin-bottom: 10%;
+}
+
+
+.ilist{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.items{
+    margin: 4% 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items: center;
+}
+
+.name{
+    font-size: 28px;
+    color: white;
+    margin-right: 0em;
+    margin-bottom: 5%;
+    font-weight: bolder;
+}
+
+.iname{
+    font-size: 25px;
+    height: fit-content;
+    color: white;
+    margin-left: 0.5em;
+}
+
+.des{
+    font-size: 20px;
+    color: white;
+    margin-right: 0.2em;
+    margin-top: 5%;
+}
+
+.round{
+    border-radius: 50%;
+}
+
+.namebox{
+    display: flex;
+    flex-direction: column;
+    margin-left: 6%;
+}
+
+
+#avt{
+    font-size: 10px;
+    width: 12em;
+    height: 12em;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    margin-top: auto;
+    background-image: url(/z3889699592308_799f585b2c0d869f6cf1f5e24c78b941.jpg);
+    background-size: 80%;
+    background-position-x: center;
+}
+
+#ipic{
+    font-size: 10px;
+    width: 8em;
+    height: 8em;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    margin-top: auto;
+}
+
+.insta{
+    background-image: url(/instagram.png);
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center;   
+}
+
+.face{
+    background-image: url(/facebook.png);
+    background-size: 125%;
+    background-repeat: no-repeat;
+    background-position-x: -11px;   
+    background-position-y: -10px;
+}
+
+.gmail{
+    background-image: url(/gmail.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;   
+}
+
+.mb{
+    background-image: url(/MB.png);
+    background-size: 180%;
+    background-repeat: no-repeat;
+    background-position: center;  
+}
+
+.phone{
+    background-image: url(/phone-icon-in-black-and-white-telephone-symbol-vector-22968116.jpg);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: -5px;  
+}
