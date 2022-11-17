@@ -75,7 +75,7 @@ a{
     border-radius: 50%;
     background-color: rgb(255, 255, 255);
     margin-top: auto;
-    background-image: url(/z3889699592308_799f585b2c0d869f6cf1f5e24c78b941.jpg);
+    background-image: url("/z3889699592308_799f585b2c0d869f6cf1f5e24c78b941.jpg");
     background-size: 80%;
     background-position-x: center;
 }
@@ -90,14 +90,14 @@ a{
 }
 
 .insta{
-    background-image: url(/instagram.png);
+    background-image: url("instagram.png");
     background-size: 75%;
     background-repeat: no-repeat;
     background-position: center;   
 }
 
 .face{
-    background-image: url(/facebook.png);
+    background-image: url("facebook.png");
     background-size: 125%;
     background-repeat: no-repeat;
     background-position-x: -11px;   
@@ -105,21 +105,21 @@ a{
 }
 
 .gmail{
-    background-image: url(/gmail.png);
+    background-image: url("gmail.png");
     background-size: 70%;
     background-repeat: no-repeat;
     background-position: center;   
 }
 
 .mb{
-    background-image: url(/MB.png);
+    background-image: url("MB.png");
     background-size: 180%;
     background-repeat: no-repeat;
     background-position: center;  
 }
 
 .phone{
-    background-image: url(/phone-icon-in-black-and-white-telephone-symbol-vector-22968116.jpg);
+    background-image: url("phone-icon-in-black-and-white-telephone-symbol-vector-22968116.jpg");
     background-size: 110%;
     background-repeat: no-repeat;
     background-position-x: center;
