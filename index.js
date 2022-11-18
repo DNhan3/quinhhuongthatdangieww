@@ -3,7 +3,7 @@ function phone() {
     navigator.clipboard.writeText("0948107722");
 
     /* Alert the copied text */
-    alert("You have copied my phone  number ✨");
+    alert("You have copied my phone  number 🤍");
 }
 
 function email() {
@@ -11,7 +11,7 @@ function email() {
     navigator.clipboard.writeText("lequynhhuong7979@gmail.com");
 
     /* Alert the copied text */
-    alert("You have copied my email address ✨");
+    alert("You have copied my email address 🤍");
 }
 
 function email_1() {
@@ -19,7 +19,7 @@ function email_1() {
     navigator.clipboard.writeText("huonglequynh50@gmail.com");
 
     /* Alert the copied text */
-    alert("You have copied my email address ✨");
+    alert("You have copied my email address 🤍");
 }
 
 function email_2() {
@@ -27,7 +27,7 @@ function email_2() {
     navigator.clipboard.writeText("quinhhuongdangieww@gmail.com");
 
     /* Alert the copied text */
-    alert("You have copied my email address ✨");
+    alert("You have copied my email address 🤍");
 }
 
 function bank() {
