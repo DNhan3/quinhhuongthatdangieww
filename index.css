@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(5, 5, 5);
+    background-color: black;
 }
 
 a{
@@ -12,15 +12,33 @@ p{
     text-decoration: none;
 }
 
+.background{
+    margin-top: -5%;
+    width: 100%;
+    height: 100%;
+    background-image: url("/img/screen-0.jpg");
+    background-size: 140%;
+    background-repeat: no-repeat;
+    background-position-y: 5%;
+    filter: blur(4px);
+    position:absolute;
+    z-index: -5;
+    opacity: 70%;
+}
+
 .main{
     margin: 3% 3%;
 }
 
 .header{
+    animation-name: fade;
+    animation-duration: 1s;
+    animation-timing-function:ease-in-out;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap:wrap;
-    margin-bottom: 10%;
+    align-items: center;
+    margin: 10% 0 5%;
 }
 
 
@@ -28,37 +46,41 @@ p{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    margin-left: 5%;
+    margin: 0;
 }
 
 .items{
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 10px;
     margin: 4% 0;
+    border-radius: 50px;
     display: flex;
     flex-direction: row;
     flex-wrap:wrap;
     align-items: center;
+    animation-name: fade;
+    animation-duration: 1s;
+    animation-timing-function:ease-in-out;
 }
 
 .name{
-    font-size: 28px;
+    font-size: 30px;
     color: white;
-    margin-right: 0em;
-    margin-bottom: 5%;
     font-weight: bolder;
-}
-
-.iname{
-    font-size: 25px;
-    height: fit-content;
-    color: white;
-    margin-left: 0.5em;
+    margin-bottom: 0;
 }
 
 .des{
     font-size: 20px;
     color: white;
-    margin-right: 0.2em;
-    margin-top: 5%;
+}
+
+.iname{
+    font-size:25;
+    height: fit-content;
+    color: white;
+    margin-left: 0.5em;
 }
 
 .round{
@@ -69,28 +91,6 @@ p{
     display: flex;
     flex-direction: column;
     margin-left: 6%;
-}
-
-
-#avt{
-    font-size: 10px;
-    width: 12em;
-    height: 12em;
-    border-radius: 50%;
-    background-color: rgb(255, 255, 255);
-    margin-top: auto;
-    background-image: url("img//z3889699592308_799f585b2c0d869f6cf1f5e24c78b941.jpg");
-    background-size: 80%;
-    background-position-x: center;
-}
-
-#ipic{
-    font-size: 10px;
-    width: 8em;
-    height: 8em;
-    border-radius: 50%;
-    background-color: rgb(255, 255, 255);
-    margin-top: auto;
 }
 
 .insta{
@@ -128,4 +128,42 @@ p{
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: -5px;  
+}
+
+#avt{
+    font-size: 12px;
+    width: 12em;
+    height: 12em;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    background-image: url("img//z3889699592308_799f585b2c0d869f6cf1f5e24c78b941.jpg");
+    background-size: 80%;
+    background-position-x: center;
+    margin: auto 0;
+}
+
+#deco{
+    font-size: 13px;
+    width: 12em;
+    height: 12em;
+    border-color: aliceblue;
+    border-style: dashed;
+    border-width: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ipic{
+    font-size: 10px;
+    width: 8em;
+    height: 8em;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    margin-top: auto;
+}
+
+@keyframes fade {
+    0% {opacity: 0;}
+    100% {opacity: 100%;}
 }
