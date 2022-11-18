@@ -135,10 +135,11 @@ p{
     height: 12em;
     border-radius: 50%;
     background-color: rgb(255, 255, 255);
-    background-image: url("img//z3889699592308_799f585b2c0d869f6cf1f5e24c78b941.jpg");
-    background-size: 80%;
-    background-position-x: center;
-    margin: auto 0;
+    background-image: url("img//z3892319250223_82c8f44cd6d9e09ba2c4734690d40d6d.jpg");
+    background-size: 150%;
+    background-position: center;
+    margin: auto;
+    background-repeat: no-repeat;
 }
 
 #deco{
