@@ -20,10 +20,9 @@ p{
     background-size: 140%;
     background-repeat: no-repeat;
     background-position-y: 5%;
-    filter: blur(4px);
-    position:absolute;
-    z-index: -5;
-    opacity: 70%;
+    position: absolute;
+    z-index: -1;
+    opacity: 50%;
 }
 
 .main{
