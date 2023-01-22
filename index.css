@@ -144,6 +144,13 @@ p{
     background-repeat: no-repeat;
 }
 
+.avt2{
+    background-image: url("img//avt2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;  
+}
+
 #deco{
     font-size: 12px;
     width: 12em;
